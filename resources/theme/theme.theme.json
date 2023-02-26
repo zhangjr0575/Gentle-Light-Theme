@@ -1,0 +1,157 @@
+{
+  "name": "Gentle Light Theme",
+  "author": "JiaRui Zhang",
+  "dark": false,
+  "colors": {
+    "green": "#32B968",
+    "greenPlain": "#E8F8DC",
+
+    "primaryForeground": "#282828",
+    "primaryBackground": "#FDFEE8",
+
+    "disabledForeground": "#CCCCCC",
+
+    "selectionForeground": "#32B968",
+    "selectionBackground": "#E8F8DC",
+
+    "primaryBorderColor": "#D1D1D1",
+    "componentBorderColor":"#DCD0A8"
+  },
+  "ui": {
+    "*": {
+      "foreground": "primaryForeground",
+      "background": "primaryBackground",
+      "disabledForeground": "disabledForeground",
+
+      "selectionForeground": "selectionForeground",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveForeground": "primaryForeground",
+      "selectionInactiveBackground": "selectionBackground",
+
+      "hoverForeground": "selectionForeground",
+      "hoverBackground": "selectionBackground",
+      "hoverInactiveForeground": "selectionForeground",
+      "hoverInactiveBackground": "selectionBackground",
+
+      "modifiedItemForeground": "#5178BC"
+    },
+    "Component": {
+      "borderColor": "componentBorderColor",
+      "focusColor": "green",
+      "focusedBorderColor": "green"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "nonEditableBackground": "primaryBackground"
+      },
+      "nonEditableBackground": "primaryBackground"
+    },
+    "Tree": {
+      "textForeground": "primaryForeground",
+      "selectionForeground": "primaryForeground"
+    },
+    "Button": {
+      "startBorderColor": "componentBorderColor",
+      "endBorderColor": "componentBorderColor",
+      "startBackground": "primaryBackground",
+      "endBackground": "primaryBackground",
+      "disabledBorderColor": "disabledForeground",
+      "default": {
+        "foreground": "#FFFFFF",
+        "startBackground": "green",
+        "endBackground": "green",
+        "startBorderColor": "green",
+        "endBorderColor": "green",
+        "focusedBorderColor": "green",
+        "focusColor": "green"
+      }
+    },
+    "EditorTabs": {
+      "underlineHeight": 2,
+      "underlineColor": "green",
+      "underlinedTabBackground": "greenPlain",
+      "inactiveUnderlineColor": "green"
+    },
+    "DefaultTabs": {
+      "underlineHeight": 2,
+      "underlineColor": "green",
+      "underlinedTabBackground": "greenPlain",
+      "inactiveUnderlineColor": "green"
+    },
+    "ToolWindow": {
+      "Button": {
+        "selectedBackground": "greenPlain"
+      },
+      "Header": {
+        "background": "primaryBackground",
+        "inactiveBackground": "primaryBackground"
+      }
+    },
+    "Plugins": {
+      "Button": {
+        "updateForeground": "#FFFFFF",
+        "updateBackground": "green",
+        "updateBorderColor": "green",
+        "installForeground": "#FFFFFF",
+        "installBackground": "green",
+        "installBorderColor": "green",
+        "installFillBackground": "green",
+        "installFillForeground": "#FFFFFF",
+        "installFocusedBackground": "green"
+      },
+      "paidTagBackground": "greenPlain",
+      "lightSelectionBackground": "selectionBackground"
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "primaryBackground",
+        "inactiveBackground": "primaryBackground"
+      }
+    },
+    "TabbedPane": {
+      "underlineColor": "greenPlain"
+    },
+    "ProgressBar": {
+      "trackColor": "greenPlain",
+      "progressColor": "green"
+    },
+    "SearchEverywhere": {
+      "SearchField": {
+        "background": "secondaryBackground"
+      },
+      "Tab": {
+        "selectedBackground": "selectionBackground",
+        "selectedForeground": "selectionForeground"
+      }
+    },
+    "Table": {
+      "focusCellForeground": "selectionForeground",
+      "focusCellBackground": "selectionBackground",
+      "lightSelectionForeground": "selectionForeground",
+      "gridColor": "selectionForeground",
+      "lightSelectionBackground": "selectionBackground"
+    },
+    "Toggle.highlight": "selectionForeground",
+    "ValidationTooltip": {
+      "errorBackground": "primaryBackground",
+      "warningBackground": "primaryBackground"
+    },
+    "EditorPane": {
+      "inactiveBackground": "primaryBackground",
+      "inactiveForeground": "primaryForeground"
+    },
+    "window": "primaryBackground",
+    "windowText": "primaryForeground"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default": "primaryBackground",
+      "Checkbox.Background.Selected": "green",
+      "Checkbox.Border.Default": "green",
+      "Checkbox.Border.Selected": "green",
+      "Checkbox.Focus.Thin.Default": "green",
+      "Checkbox.Focus.Thin.Selected": "green",
+      "Checkbox.Focus.Wide": "primaryBackground"
+    }
+  }
+}
